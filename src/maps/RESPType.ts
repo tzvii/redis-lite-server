@@ -1,0 +1,1 @@
+export type RESPType = string | number | any[];

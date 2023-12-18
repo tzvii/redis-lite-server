@@ -1,0 +1,30 @@
+{
+  "name": "redis-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-warnings",
+    "build": "tsc && echo '\n*** Project build complete ***\n'",
+    "redis-lite-server": "node lib/servers/redis-lite-server.js",
+    "benchmark-server": "node lib/servers/benchmark-server.js"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)",
+      "**/?(*.)+(spec|test).js?(x)"
+    ]
+  },
+  "keywords": [],
+  "author": "Tzvi Mashiach",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.0",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21"
+  }
+}
