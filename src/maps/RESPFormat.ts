@@ -1,4 +1,4 @@
-export const RESPFormat =
+export const RESPFormat: {[key: string]: RegExp} =
 {
     simpleString: <RegExp>/^\+(.*?)\r\n$/,
     error: <RegExp>/^\-(.*?)\r\n$/,

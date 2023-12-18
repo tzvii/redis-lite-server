@@ -66,7 +66,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. **Connect to the Server:**
    Connect to the Redis Lite TCP server by your preferred method.
-   - One method is to use a network utility like Netcat.
+   - One method is to use a network utility tool like Netcat:
    ```bash
    nc localhost 6379
    ```
