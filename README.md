@@ -2,13 +2,15 @@
 
 ## Overview
 
-This project is a fully functional Redis Lite server implemented in TypeScript/Node.js. It replicates the basic functionality of Redis, an in-memory database server, supporting key-value operations, serialization/deserialization, concurrency handling, and various Redis commands.
+This project is a fully functional Redis Lite server and Redis Lite CLI implemented in TypeScript/Node.js. It replicates the basic functionality of Redis, an in-memory database server, supporting key-value operations, serialization/deserialization, concurrency handling, and various Redis commands.
 
 ## Features
 
 - **Serialization and Deserialization:** Implements Redis Serialization Protocol (RESP) for effective communication with clients.
 
 - **Redis Lite Server:** A fully functional server that listens for clients on port 6379. Handles various commands using RESP serialization and deserialization.
+
+- **Redis Lite CLI:** A fully functional command line interface for Redis Lite.
 
 - **Key-Value Operations:** Supports core Redis functionality with SET and GET commands. Stores and retrieves key-value pairs.
 
