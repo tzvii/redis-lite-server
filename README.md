@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a fully functional Redis Lite server implemented in TypeScript/Node.js. It replicates the basic functionality of Redis, an in-memory data structure server, supporting key-value operations, serialization/deserialization, concurrency handling, and various Redis commands.
+This project is a fully functional Redis Lite server implemented in TypeScript/Node.js. It replicates the basic functionality of Redis, an in-memory database server, supporting key-value operations, serialization/deserialization, concurrency handling, and various Redis commands.
 
 ## Features
 
