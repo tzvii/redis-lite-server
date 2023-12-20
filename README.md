@@ -12,7 +12,7 @@ This project is a fully functional Redis Lite server implemented in TypeScript/N
 
 - **Key-Value Operations:** Supports core Redis functionality with SET and GET commands. Stores and retrieves key-value pairs.
 
-- **Concurrent Client Handling:** Enhanced server to handle multiple concurrent clients. Supports both one thread per client and asynchronous programming.
+- **Concurrent Client Handling:** Enhanced server to handle multiple concurrent clients.
 
 - **Expiry Options for SET:** Extends SET command to include expiry options like EX, PX, EXAT, and PXAT. Provides automated testing for proper setting and expiration of values.
 
